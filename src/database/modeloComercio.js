@@ -40,6 +40,8 @@ const comercios = new Schema({
         of: String,
         required:true
     }
-});
+},
+{ versionKey: false }
+);
 
 module.exports = model('comercios', comercios);
