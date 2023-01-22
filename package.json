@@ -1,0 +1,32 @@
+{
+  "name": "mscrearproducto-comerciantes",
+  "version": "1.0.0",
+  "description": "Microservice for xidoo rutas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xidoo-Rutas/MsCrearProducto-Comerciantes.git"
+  },
+  "keywords": [
+    "microservice"
+  ],
+  "author": "kevincodes from xidoo rutas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Xidoo-Rutas/MsCrearProducto-Comerciantes/issues"
+  },
+  "homepage": "https://github.com/Xidoo-Rutas/MsCrearProducto-Comerciantes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
