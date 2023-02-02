@@ -1,7 +1,7 @@
 const {Schema, model} = require('mongoose');
 
 const comercios = new Schema({
-    nombreNeogcio: {
+    nombreNegocio: {
         type: String,
         required: true
     },

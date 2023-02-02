@@ -8,12 +8,12 @@ dotenv.config({path:'./.env'});
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
-app.use(cors({
-    origin: 'http://localhost:3000/',
-    methods: "POST",
-}));
+// app.use(cors({
+//     origin: 'http://localhost:5000/',
+//     methods: "POST",
+// }));
 
-app.listen(process.env.port, (req, res) => {
+app.listen(5000, (req, res) => {
     try {
         databaseConnect();
         console.log('db online');

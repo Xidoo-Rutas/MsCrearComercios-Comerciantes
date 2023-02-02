@@ -14,7 +14,7 @@ const insertarComercio = (req, res) => {
             res.status(200).end();
         });
     } catch (error) {
-        console.log(erros)
+        console.log(error)
     }
 
 }

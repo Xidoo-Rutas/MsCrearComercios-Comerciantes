@@ -4,7 +4,7 @@ require('dotenv').config()
 const databaseConnect = () => {
     try {
         mongoose.set("strictQuery", true);
-        mongoose.connect('mongodb://localhost:27017/xidoo');
+        mongoose.connect('mongodb://127.0.0.1:27017/xidoo');
         console.log('Se ha enlazado a la base de datos');
      } catch (error) {
         console.log(error);

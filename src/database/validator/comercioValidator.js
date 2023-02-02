@@ -1,7 +1,7 @@
 const {check, validationResult} = require('express-validator');
 
 const validacionDeDatos = [
-    check('nombreNeogcio').exists().not().isEmpty().trim(),
+    check('nombreNegocio').exists().not().isEmpty().trim(),
     check('idUsuario').exists().not().isEmpty().trim(),
     check('categoriaNegocio').exists().not().isEmpty().trim(),
     check('direccionNegocio').exists().not().isEmpty().trim(),
